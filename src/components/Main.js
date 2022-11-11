@@ -1,4 +1,5 @@
 import React from "react";
+import ContadorContainer from "./ContadorContainer";
 
 function Main() {
   return (
@@ -18,6 +19,8 @@ function Main() {
           <button>Controladores</button>
         </article>
       </section>
+
+      <ContadorContainer />
     </main>
   );
 }

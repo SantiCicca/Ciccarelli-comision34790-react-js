@@ -9,7 +9,7 @@ function App() {
     <>
       <Header />
       <Main />
-      <ItemListContainer mensaje="Aguante CoderHouse!"/>
+      <ItemListContainer mensaje="TEST MSG" />
       <Footer />
     </>
   );
