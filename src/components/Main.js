@@ -1,5 +1,6 @@
 import React from "react";
 import ContadorContainer from "./ContadorContainer";
+import UserContainer from "./UserContainer";
 
 function Main() {
   return (
@@ -21,6 +22,7 @@ function Main() {
       </section>
 
       <ContadorContainer />
+      <UserContainer />
     </main>
   );
 }

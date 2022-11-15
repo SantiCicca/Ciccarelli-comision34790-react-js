@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useEffect } from "react";
 import Contador from "./Contador";
 
 function ContadorContainer() {
@@ -13,6 +14,8 @@ function ContadorContainer() {
   // const setDisableButton = estado2[1];
 
   const [disableButton, setDisableButton] = useState(false);
+
+  
 
   const handleClick = e => {
     setContador(contador + 1);
